@@ -1,0 +1,5 @@
+<launch>
+    <node name="vio_mono" pkg="vio_mono" type="test_vio_mono" output="screen">
+    </node>
+
+</launch>

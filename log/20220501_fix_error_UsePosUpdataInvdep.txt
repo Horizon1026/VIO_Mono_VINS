@@ -1,0 +1,19 @@
+/* 指定一个特征点，使用他的世界坐标系位置，更新他的逆深度 */
+bool VIOMono::UsePosToUpdateInvdep(const std::shared_ptr<Landmark> &landmark) {
+    if (landmark == nullptr) {
+        return false;
+    }
+    auto frame = this->frameManager->GetFrame(landmark->firstFrameID);
+    if (frame != nullptr) {
+        Eigen::Vector3f p_c = frame->q_wc.inverse().toRotationMatrix() * (landmark->p_w - frame->t_wc);
+        float invdep = 1.0f / p_c.z();
+        landmark->invDep = invdep;
+        return true;
+    } else {
+        return false;
+    }
+}
+
+# 这个函数，我在计算 p_c 的时候，下意识地取了个负号，导致调用之后，从可视化结果来看，逆深度为正的被认为是 Error，而负的被认为是 Yes。有点离谱的问题，居然还会犯这种错。
+# 不过，尽管修复了这个函数之后，后端优化的特征点位置震荡的视觉效果减弱了很多，但依然还会有越来越大的误差。
+# 考虑到初始化之后立刻进行后端优化时，初始误差只有 1.4 左右，最终优化结果的误差也收敛在 1.4 左右，所以认为后端求解器的优化模型没写错，而是边缘化存在问题。

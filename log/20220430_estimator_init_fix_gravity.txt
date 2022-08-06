@@ -1,0 +1,62 @@
+<Config> Load parameters from /home/horizon/slam_ws/my_code_onROS/[workspace]/src/vio_mono/config/euroc.yaml
+<Config> Image size: rows(480) * cols(752)
+<Config> Camera distortion parameters: k1 = -0.2917, k2 = 0.08228, p1 = 5.333e-05, p2 = -0.0001578
+<Config> Camera intrinsic parameters: fx = 461.6, fy = 460.3, cx = 363, cy = 248.1
+<Config> IMU noise: accel_n = 0.08, gyro_n = 0.004, accel_w = 4e-05, gyro_w = 2e-06
+<Config> Window size : 10
+<Config> Initializer params : 0.2, 0.05, 40
+<Config> Estimatior params : 0.03, 80, 10
+<System> Feature tracker and camera model params configed.
+[ INFO] [1651306179.066589494]: test vio mono start.
+<Estimator> Start initialization.
+<Estimator> IMU motion is enough : 0.803471 > 0.2
+<Estimator> Detect correspondence between origin and frame 2, [parallax, nums] = [0.0125755 / 0.05, 111 / 40]
+<Estimator> Detect correspondence between origin and frame 3, [parallax, nums] = [0.0313034 / 0.05, 104 / 40]
+<Estimator> Detect correspondence between origin and frame 4, [parallax, nums] = [0.0569885 / 0.05, 95 / 40]
+<Estimator> Relative pose between frame 1 and 4 is [0.999932, 0.00907675, -0.00303084, -0.00662709], [0.165209 0.920939 0.352956]
+<Estimator> Triangulate 95/95 landmarks between frame 1 and 4
+<Estimator> Estimate frame 2 pose is [0.999979, 0.00595228, -0.00145059, -0.00226019], [0.0754045  0.265756  0.144128]
+<Estimator> Triangulate 16/111 landmarks between frame 1 and 2
+<Estimator> Estimate frame 3 pose is [0.999953, 0.00810416, 0.000582783, -0.0053554], [0.0809096  0.560213  0.198111]
+<Estimator> Triangulate 7/111 landmarks between frame 2 and 3
+<Estimator> Triangulate 9/111 landmarks between frame 3 and 4
+<Estimator> Estimate frame 5 pose is [0.999943, 0.00777235, 0.00104446, -0.0072961], [0.0904142    1.2761   0.34403]
+<Estimator> Triangulate 6/101 landmarks between frame 4 and 5
+<Estimator> Estimate frame 6 pose is [0.999948, 0.00817471, 0.000278981, -0.00608529], [0.104413  1.66035 0.431738]
+<Estimator> Triangulate 15/109 landmarks between frame 5 and 6
+<Estimator> Estimate frame 7 pose is [0.99993, 0.0083281, 0.00201341, -0.00819586], [0.0646017    2.0025  0.506055]
+<Estimator> Triangulate 9/108 landmarks between frame 6 and 7
+<Estimator> Estimate frame 8 pose is [0.999893, 0.0138965, 0.00160395, -0.00419194], [0.0532681   2.44264  0.634846]
+<Estimator> Triangulate 9/101 landmarks between frame 7 and 8
+<Estimator> Estimate frame 9 pose is [0.999798, 0.0200231, -0.00140038, -0.000363203], [0.145736  2.95266  0.70063]
+<Estimator> Triangulate 17/106 landmarks between frame 8 and 9
+<Estimator> Estimate frame 10 pose is [0.999719, 0.0213481, 0.00378668, -0.00960155], [0.0428821   3.18372    0.7507]
+<Estimator> Triangulate 13/101 landmarks between frame 9 and 10
+<Estimator> Estimate frame 11 pose is [0.999582, 0.0287527, 0.00251798, 0.0019087], [-0.0484368    3.66463    1.02302]
+<Estimator> Triangulate 18/102 landmarks between frame 10 and 11
+<Problem> Add 11/11 camera vertices.
+<Problem> Add 214/259 landmark vertices.
+<Problem> Add 1061 reprojection edges.
+<Order> ordering all vertices cost 0.030226 ms
+<LM Iter 0 / 40> cost 78.6566, dx 5.2279, lambda 3.33333e-05, rho 1.84213, time cost 2.88496 ms
+<LM Iter 1 / 40> cost 27.8916, dx 3.27843, lambda 1.11111e-05, rho 3.93962, time cost 1.47825 ms
+<LM Iter 2 / 40> cost 18.4595, dx 3.70996, lambda 3.7037e-06, rho 3.65941, time cost 1.39284 ms
+<LM Iter 3 / 40> cost 4.00825, dx 1.14589, lambda 1.23457e-06, rho 4.24569, time cost 1.45706 ms
+<LM Iter 4 / 40> cost 1.72284, dx 0.342657, lambda 4.11523e-07, rho 26.9846, time cost 1.3375 ms
+<LM Iter 5 / 40> cost 1.41675, dx 0.244844, lambda 1.37174e-07, rho 276.954, time cost 1.48377 ms
+<LM Iter 6 / 40> cost 1.39153, dx 0.0256419, lambda 4.57247e-08, rho 254.639, time cost 1.44773 ms
+<LM Iter 7 / 40> cost 1.39214, dx 0.00323608, lambda 9.14495e-08, rho -533.237, time cost 1.37058 ms
+<LM Iter 8 / 40> cost 1.39214, dx 0.00323688, lambda 3.65798e-07, rho -532.611, time cost 0.727734 ms
+<LM Iter 9 / 40> cost 1.39214, dx 0.0032284, lambda 2.92638e-06, rho -536.085, time cost 0.834365 ms
+<LM End> min cost holding times up to threshold, finished.
+<Finish> Problem solve totally cost 15.2083 ms
+<Estimator> Estimate Expose is [0.712301, -0.00770718, 0.0104993, 0.701753], [-0.0216401  -0.064677 0.00981073]
+<Estimator> Delta gyro bias is -0.00424233 0.000129516   0.0772749
+<Estimator> Delta gyro bias is -1.88492e-05  3.44437e-06  -8.3084e-07
+<Estimator> Delta gyro bias is -8.69473e-09  2.23371e-08 -5.48244e-07
+<Estimator> Refined gyro bias is -0.00426119 0.000132983   0.0772735
+<Estimator> Estimated gravity is -0.179083   -9.2504  -3.06446, norm is 9.74643, scale is 0.0845855
+<Estimator> Refined gravity is -0.174714  -9.31479  -3.07249, norm is 9.81
+<Estimator> The rotation from cam0 to word (q_w_c0) is [0.586003, -0.00770718, 0.0104993, 0.701753]
+<Estimator> Initialization succeed.
+[ INFO] [1651306221.866446844]: test vio mono timeout, stop.

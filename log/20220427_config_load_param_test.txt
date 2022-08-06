@@ -1,0 +1,10 @@
+<Config> Load parameters from /home/horizon/slam_ws/my_code_onROS/[workspace]/src/vio_mono/config/euroc.yaml
+<Config> Image size: rows(480) * cols(752)
+<Config> Camera distortion parameters: k1 = -0.2917, k2 = 0.08228, p1 = 5.333e-05, p2 = -0.0001578
+Camera intrinsic parameters: fx = 461.6, fy = 460.3, cx = 363, cy = 248.1
+<Config> IMU noise: accel_n = 0.08, gyro_n = 0.004, accel_w = 4e-05, gyro_w = 2e-06
+<Config> Window size : 10
+Initializer params : 0.08, 0.02, 40
+Estimatior params : 0.02, 80
+[ INFO] [1651036948.042470135]: test vio mono start.
+[ INFO] [1651036953.340657363]: test vio mono timeout, stop.

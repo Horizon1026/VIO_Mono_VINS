@@ -1,0 +1,64 @@
+%YAML:1.0
+
+# 数据存取路径相关参数
+# 轨迹保存位置
+save_poses_file: /home/horizon/slam_ws/my_code_onROS/[workspace]/src/vio_mono/saved_data/poses.txt
+# 图像全局屏蔽域描述文件位置
+global_mask: /home/horizon/slam_ws/my_code_onROS/[workspace]/src/vio_mono/global_mask/mask.png
+# 单次优化耗时保存位置
+save_cost_times_file: /home/horizon/slam_ws/my_code_onROS/[workspace]/src/vio_mono/saved_data/cost_times.txt
+
+# 后端求解方法，目前可选为 graph_optimize 和 root_vio
+solver: root_vio
+
+# 相机模型相关参数
+camera_rows: 480
+camera_cols: 752
+camera_distortion:
+    k1: -2.917e-01
+    k2: 8.228e-02
+    p1: 5.333e-05
+    p2: -1.578e-04
+camera_intrinsic:
+    fx: 4.616e+02
+    fy: 4.603e+02
+    cx: 3.630e+02
+    cy: 2.481e+02
+camera_map_scale: 7     # 反畸变映射表的精度（不是越高越好，首先于像素对应的物理世界大小）
+
+# IMU 噪声参数       The more accurate parameters you provide, the better performance
+acc_n: 0.24          # accelerometer measurement noise standard deviation.
+gyr_n: 0.08         # gyroscope measurement noise standard deviation.
+acc_w: 5.0e-5         # accelerometer bias random work noise standard deviation.
+gyr_w: 3.0e-5       # gyroscope bias random work noise standard deviation.
+
+# 相机与 IMU 之间的相对位姿
+extrinsicRotation: !!opencv-matrix
+    rows: 3
+    cols: 3
+    dt: d
+    data: [0.0148655429818, -0.999880929698, 0.00414029679422,
+           0.999557249008, 0.0149672133247, 0.025715529948, 
+           -0.0257744366974, 0.00375618835797, 0.999660727178]
+extrinsicTranslation: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [-0.0216401454975,-0.064676986768, 0.00981073058949]
+
+# VIO-Mono 系统宏观配置参数
+window_size: 10
+
+# 前端特征追踪器参数
+tracker_feature_num: 100    # 若追踪过程中特征点数不足于此，则补充检测
+tracker_min_distance: 30    # 追踪特征点之间允许的最小像素距离
+
+# 后端初始化参数
+initial_min_imu_motion: 0.2         # 初始化时要求 IMU 至少有多少运动激励
+initial_min_mean_parallax: 0.03     # 初始化时要求对极约束的两帧之间至少存在多少平均视差（归一化平面）
+initial_min_covisible_num: 40       # 初始化时要求对极约束的两帧之间至少有多少共视特征点
+
+# 后端紧耦合优化参数
+vio_min_mean_parallax: 0.03         # 后端优化时，判断关键帧的平均视差阈值
+vio_min_covisible_num: 70           # 后端优化时，判断关键帧的共视特征点数阈值
+vio_max_imu_integrate_time: 10.0    # 后端优化时，参与约束的 IMU 积分块的积分时间不超过此值

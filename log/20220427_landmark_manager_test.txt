@@ -1,0 +1,1122 @@
+<Config> Load parameters from /home/horizon/slam_ws/my_code_onROS/[workspace]/src/vio_mono/config/euroc.yaml
+<Config> Image size: rows(480) * cols(752)
+<Config> Camera distortion parameters: k1 = -0.2917, k2 = 0.08228, p1 = 5.333e-05, p2 = -0.0001578
+<Config> Camera intrinsic parameters: fx = 461.6, fy = 460.3, cx = 363, cy = 248.1
+<Config> IMU noise: accel_n = 0.08, gyro_n = 0.004, accel_w = 4e-05, gyro_w = 2e-06
+<Config> Window size : 10
+<Config> Initializer params : 0.08, 0.02, 40
+<Config> Estimatior params : 0.02, 80
+this->distortedToCorrectMap[0][0] is -125.341, -85.6157
+<System> Feature tracker and camera model params configed.
+[ INFO] [1651069350.037945051]: test vio mono start.
+<Landmark Manager> Print all landmarks' information:
+  landmark 120, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0758232  -0.128395, pixel 328 189, delta t 0
+  landmark 119, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.509099  0.321312, pixel 128 396, delta t 0
+  landmark 118, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.732236  0.234412, pixel  25 356, delta t 0
+  landmark 117, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.387782 0.0236802, pixel 542 259, delta t 0
+  landmark 116, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.192808 0.00195523, pixel 274 249, delta t 0
+  landmark 115, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.394281 0.490767, pixel 545 474, delta t 0
+  landmark 114, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.513432 0.280035, pixel 600 377, delta t 0
+  landmark 113, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.422444  0.247447, pixel 168 362, delta t 0
+  landmark 112, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.593588 0.208342, pixel 637 344, delta t 0
+  landmark 111, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm    0.65208 -0.0523572, pixel 664 224, delta t 0
+  landmark 110, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.214471 -0.139257, pixel 462 184, delta t 0
+  landmark 109, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.539428 -0.356507, pixel 612  84, delta t 0
+  landmark 108, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.645581  0.12796, pixel 661 307, delta t 0
+  landmark 107, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.214471 -0.221812, pixel 462 146, delta t 0
+  landmark 106, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.673743 -0.176189, pixel 674 167, delta t 0
+  landmark 105, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.600087  0.221377, pixel  86 350, delta t 0
+  landmark 104, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.530763 -0.165327, pixel 608 172, delta t 0
+  landmark 103, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.489601 -0.215294, pixel 137 149, delta t 0
+  landmark 102, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0909879 -0.204432, pixel 405 154, delta t 0
+  landmark 101, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.563258   0.16272, pixel 103 323, delta t 0
+  landmark 100, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.487435    0.1801, pixel 138 331, delta t 0
+  landmark 99, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.428943   0.18879, pixel 165 335, delta t 0
+  landmark 98, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0779896   0.227895, pixel 327 353, delta t 0
+  landmark 97, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.160312 -0.0545297, pixel 437 223, delta t 0
+  landmark 96, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0649913  -0.289159, pixel 333 115, delta t 0
+  landmark 95, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.305459 0.225722, pixel 504 352, delta t 0
+  landmark 94, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.311958 -0.428199, pixel 507  51, delta t 0
+  landmark 93, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.619584 -0.269607, pixel 649 124, delta t 0
+  landmark 92, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0129983 -0.306539, pixel 369 107, delta t 0
+  landmark 91, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.292461 0.00195523, pixel 228 249, delta t 0
+  landmark 90, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.740901 -0.226157, pixel 705 144, delta t 0
+  landmark 89, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0866551 -0.0154247, pixel 323 241, delta t 0
+  landmark 88, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.725737  0.338692, pixel  28 404, delta t 0
+  landmark 87, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.710572 -0.0458397, pixel 691 227, delta t 0
+  landmark 86, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.730069 -0.534651, pixel 700   2, delta t 0
+  landmark 85, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.158146 -0.215294, pixel 290 149, delta t 0
+  landmark 84, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0498267  0.299587, pixel 386 386, delta t 0
+  landmark 83, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.721404  0.14534, pixel 696 315, delta t 0
+  landmark 82, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.119151 0.0236802, pixel 418 259, delta t 0
+  landmark 81, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.483102  0.251792, pixel 140 364, delta t 0
+  landmark 80, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.615251  0.486422, pixel  79 472, delta t 0
+  landmark 79, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.706239 0.419075, pixel 689 441, delta t 0
+  landmark 78, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.205806   0.31045, pixel 268 391, delta t 0
+  landmark 77, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0259965 -0.193569, pixel 375 159, delta t 0
+  landmark 76, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.381282 -0.0241147, pixel 187 237, delta t 0
+  landmark 75, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.543761 -0.0306322, pixel 614 234, delta t 0
+  landmark 74, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0281629  -0.210949, pixel 350 151, delta t 0
+  landmark 73, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.155979 -0.228329, pixel 435 143, delta t 0
+  landmark 72, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.409445 -0.382577, pixel 174  72, delta t 0
+  landmark 71, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.368284 -0.291332, pixel 533 114, delta t 0
+  landmark 70, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.242634 0.490767, pixel 475 474, delta t 0
+  landmark 69, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.121317 -0.295677, pixel 307 112, delta t 0
+  landmark 68, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.667244 0.186617, pixel 671 334, delta t 0
+  landmark 67, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.487435 -0.108842, pixel 588 198, delta t 0
+  landmark 66, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.441941 -0.432544, pixel 567  49, delta t 0
+  landmark 65, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.535095 -0.528134, pixel 610   5, delta t 0
+  landmark 64, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.539428  0.473387, pixel 114 466, delta t 0
+  landmark 63, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.34662 -0.323919, pixel 203  99, delta t 0
+  landmark 62, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.0389948 -0.0740821, pixel 381 214, delta t 0
+  landmark 61, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.145147 0.366935, pixel 430 417, delta t 0
+  landmark 60, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.571924 0.360417, pixel 627 414, delta t 0
+  landmark 29, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.47227 0.492939, pixel 145 475, delta t 0
+  landmark 28, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.732236  0.395177, pixel  25 430, delta t 0
+  landmark 27, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.496101 0.0432327, pixel 592 268, delta t 0
+  landmark 26, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.142981  0.366935, pixel 297 417, delta t 0
+  landmark 25, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.470104 -0.208777, pixel 580 152, delta t 0
+  landmark 24, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.253466 -0.0936346, pixel 480 205, delta t 0
+  landmark 23, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0866551 -0.260917, pixel 403 128, delta t 0
+  landmark 22, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.760399  0.10189, pixel 714 295, delta t 0
+  landmark 21, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.281629 -0.0849446, pixel 233 209, delta t 0
+  landmark 20, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.543761   0.23224, pixel 112 355, delta t 0
+  landmark 19, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.255633 -0.304367, pixel 481 108, delta t 0
+  landmark 18, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.106153  0.408212, pixel 314 436, delta t 0
+  landmark 17, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.604419   0.41473, pixel  84 439, delta t 0
+  landmark 16, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.372617  0.486422, pixel 191 472, delta t 0
+  landmark 15, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.37695 0.347382, pixel 189 408, delta t 0
+  landmark 14, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0259965 -0.367369, pixel 375  79, delta t 0
+  landmark 1, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.498267  0.427765, pixel 133 445, delta t 0
+  landmark 2, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.366118  0.427765, pixel 194 445, delta t 0
+  landmark 3, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.47227 0.369107, pixel 145 418, delta t 0
+  landmark 4, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.431109  0.412557, pixel 164 438, delta t 0
+  landmark 5, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.233969  0.440799, pixel 255 451, delta t 0
+  landmark 6, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.034662 -0.434717, pixel 379  48, delta t 0
+  landmark 7, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.277296  0.308277, pixel 235 390, delta t 0
+  landmark 8, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.337955 -0.0458397, pixel 519 227, delta t 0
+  landmark 9, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.548094  0.390832, pixel 110 428, delta t 0
+  landmark 10, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.305459  0.464697, pixel 222 462, delta t 0
+  landmark 11, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.199307   0.37997, pixel 271 423, delta t 0
+  landmark 12, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.301127  0.358245, pixel 224 413, delta t 0
+  landmark 13, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.563258   0.31045, pixel 103 391, delta t 0
+  landmark 30, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.725737 -0.471649, pixel 698  31, delta t 0
+  landmark 31, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.262132 -0.336954, pixel 242  93, delta t 0
+  landmark 32, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.721404 0.351727, pixel 696 410, delta t 0
+  landmark 33, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.355286  0.251792, pixel 199 364, delta t 0
+  landmark 34, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.151646  -0.14143, pixel 293 183, delta t 0
+  landmark 35, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.214471 -0.139257, pixel 264 184, delta t 0
+  landmark 36, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.017331  0.306105, pixel 355 389, delta t 0
+  landmark 37, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0259965 -0.0349772, pixel 351 232, delta t 0
+  landmark 38, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.331456 -0.391267, pixel 210  68, delta t 0
+  landmark 39, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.641248  0.332175, pixel  67 401, delta t 0
+  landmark 40, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.437608 -0.0306322, pixel 161 234, delta t 0
+  landmark 41, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0844887   0.334347, pixel 324 402, delta t 0
+  landmark 42, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.333622 0.0128177, pixel 517 254, delta t 0
+  landmark 43, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.106153 -0.0675646, pixel 314 217, delta t 0
+  landmark 44, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.496101 -0.436889, pixel 592  47, delta t 0
+  landmark 45, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.314125 -0.532479, pixel 508   3, delta t 0
+  landmark 46, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.59792 -0.504236, pixel 639  16, delta t 0
+  landmark 47, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.441941  0.316967, pixel 159 394, delta t 0
+  landmark 48, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.554593 0.0540951, pixel 619 273, delta t 0
+  landmark 49, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0758232  -0.356507, pixel 328  84, delta t 0
+  landmark 50, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.207972 -0.310884, pixel 267 105, delta t 0
+  landmark 51, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.509099  0.121443, pixel 128 304, delta t 0
+  landmark 52, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.671577  0.24093, pixel 673 359, delta t 0
+  landmark 53, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.606586 0.269172, pixel 643 372, delta t 0
+  landmark 54, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.697574 -0.276124, pixel 685 121, delta t 0
+  landmark 55, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0368284  0.0519226, pixel 346 272, delta t 0
+  landmark 56, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.775563   0.43211, pixel   5 447, delta t 0
+  landmark 57, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.381282 -0.426027, pixel 539  52, delta t 0
+  landmark 58, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm     0.437608 -0.000217263, pixel 565 248, delta t 0
+  landmark 59, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.827556 -0.445579, pixel 745  43, delta t 0
+<Landmark Manager> Print all landmarks' information:
+  landmark 129, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm 0.140815 -0.12405, pixel 428 191, delta t 0
+  landmark 128, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm 0.0584922 -0.139257, pixel 390 184, delta t 0
+  landmark 59, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.827556 -0.445579, pixel 745  43, delta t 0
+    observed in frame 2, norm 0.822981 -0.44234, pixel 742.888 44.4908, delta t 0
+  landmark 58, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm     0.437608 -0.000217263, pixel 565 248, delta t 0
+    observed in frame 2, norm     0.43397 -0.00234308, pixel 563.321 247.021, delta t 0
+  landmark 57, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.381282 -0.426027, pixel 539  52, delta t 0
+    observed in frame 2, norm 0.376758 -0.42348, pixel 536.912 53.1722, delta t 0
+  landmark 56, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.775563   0.43211, pixel   5 447, delta t 0
+  landmark 55, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0368284  0.0519226, pixel 346 272, delta t 0
+    observed in frame 2, norm -0.0420926  0.0499639, pixel  343.57 271.098, delta t 0
+  landmark 54, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.697574 -0.276124, pixel 685 121, delta t 0
+    observed in frame 2, norm  0.6926 -0.2733, pixel 682.704   122.3, delta t 0
+  landmark 53, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.606586 0.269172, pixel 643 372, delta t 0
+    observed in frame 2, norm 0.607104 0.256329, pixel 643.239 366.088, delta t 0
+  landmark 52, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.671577  0.24093, pixel 673 359, delta t 0
+    observed in frame 2, norm 0.671514 0.228538, pixel 672.971 353.296, delta t 0
+  landmark 51, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.509099  0.121443, pixel 128 304, delta t 0
+  landmark 50, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.207972 -0.310884, pixel 267 105, delta t 0
+    observed in frame 2, norm -0.212807 -0.311051, pixel 264.768 104.923, delta t 0
+  landmark 49, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0758232  -0.356507, pixel 328  84, delta t 0
+    observed in frame 2, norm -0.0804427    -0.3559, pixel 325.868 84.2793, delta t 0
+  landmark 48, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.554593 0.0540951, pixel 619 273, delta t 0
+  landmark 47, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.441941  0.316967, pixel 159 394, delta t 0
+    observed in frame 2, norm -0.45363 0.301937, pixel 153.604 387.081, delta t 0
+  landmark 46, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.59792 -0.504236, pixel 639  16, delta t 0
+    observed in frame 2, norm 0.593371 -0.50107, pixel   636.9 17.4577, delta t 0
+  landmark 45, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.314125 -0.532479, pixel 508   3, delta t 0
+    observed in frame 2, norm 0.309975 -0.52995, pixel 506.085 4.16388, delta t 0
+  landmark 44, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.496101 -0.436889, pixel 592  47, delta t 0
+    observed in frame 2, norm  0.491529 -0.434178, pixel  589.89 48.2479, delta t 0
+  landmark 43, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.106153 -0.0675646, pixel 314 217, delta t 0
+    observed in frame 2, norm  -0.111479 -0.0695228, pixel 311.541 216.099, delta t 0
+  landmark 42, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.333622 0.0128177, pixel 517 254, delta t 0
+  landmark 41, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0844887   0.334347, pixel 324 402, delta t 0
+    observed in frame 2, norm -0.0915147   0.323796, pixel 320.757 397.143, delta t 0
+  landmark 40, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.437608 -0.0306322, pixel 161 234, delta t 0
+    observed in frame 2, norm   -0.44351 -0.0320153, pixel 158.276 233.363, delta t 0
+  landmark 39, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.641248  0.332175, pixel  67 401, delta t 0
+    observed in frame 2, norm -0.65523 0.316714, pixel  60.546 393.883, delta t 0
+  landmark 38, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.331456 -0.391267, pixel 210  68, delta t 0
+    observed in frame 2, norm -0.336027 -0.391994, pixel  207.89 67.6651, delta t 0
+  landmark 37, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0259965 -0.0349772, pixel 351 232, delta t 0
+    observed in frame 2, norm -0.0309806 -0.0372707, pixel 348.699 230.944, delta t 0
+  landmark 36, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.017331  0.306105, pixel 355 389, delta t 0
+    observed in frame 2, norm -0.0234203   0.297185, pixel 352.189 384.894, delta t 0
+  landmark 35, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.214471 -0.139257, pixel 264 184, delta t 0
+    observed in frame 2, norm -0.219968 -0.140709, pixel 261.463 183.332, delta t 0
+  landmark 34, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.151646  -0.14143, pixel 293 183, delta t 0
+    observed in frame 2, norm -0.157027 -0.144026, pixel 290.517 181.805, delta t 0
+  landmark 33, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.355286  0.251792, pixel 199 364, delta t 0
+    observed in frame 2, norm -0.36555 0.236128, pixel 194.262  356.79, delta t 0
+  landmark 32, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.721404 0.351727, pixel 696 410, delta t 0
+    observed in frame 2, norm 0.724027 0.338817, pixel 697.211 404.057, delta t 0
+  landmark 31, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.262132 -0.336954, pixel 242  93, delta t 0
+    observed in frame 2, norm -0.266882 -0.337314, pixel 239.807 92.8346, delta t 0
+  landmark 30, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.725737 -0.471649, pixel 698  31, delta t 0
+    observed in frame 2, norm  0.721113 -0.468165, pixel 695.866 32.6036, delta t 0
+  landmark 13, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.563258   0.31045, pixel 103 391, delta t 0
+    observed in frame 2, norm -0.57651 0.294375, pixel 96.8829 383.601, delta t 0
+  landmark 12, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.301127  0.358245, pixel 224 413, delta t 0
+    observed in frame 2, norm -0.311601  0.343713, pixel 219.165 406.311, delta t 0
+  landmark 11, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.199307   0.37997, pixel 271 423, delta t 0
+    observed in frame 2, norm -0.208219  0.367195, pixel 266.886  417.12, delta t 0
+  landmark 10, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.305459  0.464697, pixel 222 462, delta t 0
+    observed in frame 2, norm -0.316516  0.451939, pixel 216.896 456.128, delta t 0
+  landmark 9, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.548094  0.390832, pixel 110 428, delta t 0
+    observed in frame 2, norm -0.562443  0.374828, pixel 103.376 420.634, delta t 0
+  landmark 8, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.337955 -0.0458397, pixel 519 227, delta t 0
+    observed in frame 2, norm    0.33315 -0.0494716, pixel 516.782 225.328, delta t 0
+  landmark 7, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.277296  0.308277, pixel 235 390, delta t 0
+    observed in frame 2, norm -0.286733  0.294009, pixel 230.644 383.432, delta t 0
+  landmark 6, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.034662 -0.434717, pixel 379  48, delta t 0
+    observed in frame 2, norm  0.030089 -0.435003, pixel 376.889 47.8683, delta t 0
+  landmark 5, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.233969  0.440799, pixel 255 451, delta t 0
+    observed in frame 2, norm -0.243671  0.428166, pixel 250.522 445.185, delta t 0
+  landmark 4, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.431109  0.412557, pixel 164 438, delta t 0
+    observed in frame 2, norm -0.443778  0.398044, pixel 158.152  431.32, delta t 0
+  landmark 3, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.47227 0.369107, pixel 145 418, delta t 0
+    observed in frame 2, norm -0.484859  0.354299, pixel 139.189 411.184, delta t 0
+  landmark 2, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.366118  0.427765, pixel 194 445, delta t 0
+    observed in frame 2, norm -0.377888  0.413709, pixel 188.567  438.53, delta t 0
+  landmark 1, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.498267  0.427765, pixel 133 445, delta t 0
+    observed in frame 2, norm -0.512181  0.412627, pixel 126.577 438.032, delta t 0
+  landmark 14, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0259965 -0.367369, pixel 375  79, delta t 0
+    observed in frame 2, norm 0.0213404 -0.367683, pixel 372.851 78.8557, delta t 0
+  landmark 15, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.37695 0.347382, pixel 189 408, delta t 0
+    observed in frame 2, norm -0.388323  0.332448, pixel  183.75 401.126, delta t 0
+  landmark 16, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.372617  0.486422, pixel 191 472, delta t 0
+    observed in frame 2, norm -0.385177  0.472927, pixel 185.202 465.788, delta t 0
+  landmark 17, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.604419   0.41473, pixel  84 439, delta t 0
+    observed in frame 2, norm -0.619702  0.398712, pixel 76.9454 431.627, delta t 0
+  landmark 18, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.106153  0.408212, pixel 314 436, delta t 0
+    observed in frame 2, norm -0.113635  0.397158, pixel 310.546 430.912, delta t 0
+  landmark 19, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.255633 -0.304367, pixel 481 108, delta t 0
+    observed in frame 2, norm  0.250911 -0.303442, pixel  478.82 108.425, delta t 0
+  landmark 20, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.543761   0.23224, pixel 112 355, delta t 0
+    observed in frame 2, norm -0.555536  0.216745, pixel 106.565 347.868, delta t 0
+  landmark 21, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.281629 -0.0849446, pixel 233 209, delta t 0
+    observed in frame 2, norm -0.287189 -0.086269, pixel 230.434  208.39, delta t 0
+  landmark 22, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.760399  0.10189, pixel 714 295, delta t 0
+    observed in frame 2, norm  0.757096 0.0979895, pixel 712.475 293.205, delta t 0
+  landmark 23, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0866551 -0.260917, pixel 403 128, delta t 0
+    observed in frame 2, norm 0.0815945 -0.261966, pixel 400.664 127.517, delta t 0
+  landmark 24, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.253466 -0.0936346, pixel 480 205, delta t 0
+    observed in frame 2, norm   0.248423 -0.0933556, pixel 477.672 205.128, delta t 0
+  landmark 25, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.470104 -0.208777, pixel 580 152, delta t 0
+    observed in frame 2, norm  0.465244 -0.207419, pixel 577.756 152.625, delta t 0
+  landmark 26, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.142981  0.366935, pixel 297 417, delta t 0
+    observed in frame 2, norm -0.150829  0.355253, pixel 293.377 411.623, delta t 0
+  landmark 27, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.496101 0.0432327, pixel 592 268, delta t 0
+    observed in frame 2, norm  0.491358 0.0394827, pixel 589.811 266.274, delta t 0
+  landmark 28, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.732236  0.395177, pixel  25 430, delta t 0
+    observed in frame 2, norm -0.746879  0.381134, pixel 18.2406 423.536, delta t 0
+  landmark 29, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.47227 0.492939, pixel 145 475, delta t 0
+    observed in frame 2, norm -0.486423  0.478843, pixel 138.467 468.511, delta t 0
+  landmark 60, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.571924 0.360417, pixel 627 414, delta t 0
+    observed in frame 2, norm 0.573562 0.346261, pixel 627.756 407.484, delta t 0
+  landmark 61, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.145147 0.366935, pixel 430 417, delta t 0
+    observed in frame 2, norm 0.141128 0.351793, pixel 428.144  410.03, delta t 0
+  landmark 62, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.0389948 -0.0740821, pixel 381 214, delta t 0
+    observed in frame 2, norm  0.0340011 -0.0768155, pixel 378.695 212.742, delta t 0
+  landmark 63, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.34662 -0.323919, pixel 203  99, delta t 0
+    observed in frame 2, norm -0.351478 -0.324628, pixel 200.758 98.6736, delta t 0
+  landmark 64, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.539428  0.473387, pixel 114 466, delta t 0
+    observed in frame 2, norm -0.554271  0.458728, pixel 107.149 459.252, delta t 0
+  landmark 65, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.535095 -0.528134, pixel 610   5, delta t 0
+    observed in frame 2, norm  0.530718 -0.525152, pixel  607.98 6.37241, delta t 0
+  landmark 66, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.441941 -0.432544, pixel 567  49, delta t 0
+    observed in frame 2, norm  0.437459 -0.429874, pixel 564.931  50.229, delta t 0
+  landmark 67, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.487435 -0.108842, pixel 588 198, delta t 0
+    observed in frame 2, norm  0.482333 -0.106683, pixel 585.645 198.994, delta t 0
+  landmark 68, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.667244 0.186617, pixel 671 334, delta t 0
+    observed in frame 2, norm 0.664561 0.183704, pixel 669.761 332.659, delta t 0
+  landmark 69, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.121317 -0.295677, pixel 307 112, delta t 0
+    observed in frame 2, norm -0.126135 -0.297141, pixel 304.776 111.326, delta t 0
+  landmark 70, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.242634 0.490767, pixel 475 474, delta t 0
+    observed in frame 2, norm 0.241041  0.47568, pixel 474.265 467.055, delta t 0
+  landmark 71, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.368284 -0.291332, pixel 533 114, delta t 0
+    observed in frame 2, norm  0.363533 -0.289467, pixel 530.807 114.858, delta t 0
+  landmark 72, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.409445 -0.382577, pixel 174  72, delta t 0
+    observed in frame 2, norm -0.414052 -0.383626, pixel 171.874 71.5171, delta t 0
+  landmark 73, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.155979 -0.228329, pixel 435 143, delta t 0
+    observed in frame 2, norm  0.150943 -0.228285, pixel 432.675 143.021, delta t 0
+  landmark 74, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0281629  -0.210949, pixel 350 151, delta t 0
+    observed in frame 2, norm -0.033267 -0.210872, pixel 347.644 151.036, delta t 0
+  landmark 75, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.543761 -0.0306322, pixel 614 234, delta t 0
+    observed in frame 2, norm   0.539984 -0.0336675, pixel 612.257 232.603, delta t 0
+  landmark 76, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.381282 -0.0241147, pixel 187 237, delta t 0
+    observed in frame 2, norm  -0.387175 -0.0255888, pixel  184.28 236.321, delta t 0
+  landmark 77, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0259965 -0.193569, pixel 375 159, delta t 0
+    observed in frame 2, norm 0.0208407 -0.194094, pixel  372.62 158.759, delta t 0
+  landmark 78, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.205806   0.31045, pixel 268 391, delta t 0
+    observed in frame 2, norm -0.214801  0.297625, pixel 263.848 385.097, delta t 0
+  landmark 79, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.706239 0.419075, pixel 689 441, delta t 0
+    observed in frame 2, norm 0.709427  0.40544, pixel 690.471 434.724, delta t 0
+  landmark 80, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.615251  0.486422, pixel  79 472, delta t 0
+    observed in frame 2, norm -0.63141 0.471497, pixel 71.5411  465.13, delta t 0
+  landmark 81, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.483102  0.251792, pixel 140 364, delta t 0
+    observed in frame 2, norm -0.494856  0.236094, pixel 134.575 356.774, delta t 0
+  landmark 82, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.119151 0.0236802, pixel 418 259, delta t 0
+    observed in frame 2, norm 0.113631 0.020169, pixel 415.452 257.384, delta t 0
+  landmark 83, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.721404  0.14534, pixel 696 315, delta t 0
+    observed in frame 2, norm 0.716792 0.141996, pixel 693.871 313.461, delta t 0
+  landmark 84, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0498267  0.299587, pixel 386 386, delta t 0
+    observed in frame 2, norm 0.0441692  0.291305, pixel 383.388 382.188, delta t 0
+  landmark 85, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.158146 -0.215294, pixel 290 149, delta t 0
+    observed in frame 2, norm -0.163167 -0.215936, pixel 287.682 148.705, delta t 0
+  landmark 86, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.730069 -0.534651, pixel 700   2, delta t 0
+    observed in frame 2, norm  0.725564 -0.531316, pixel  697.92 3.53533, delta t 0
+  landmark 87, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.710572 -0.0458397, pixel 691 227, delta t 0
+    observed in frame 2, norm    0.70551 -0.0435551, pixel 688.664 228.052, delta t 0
+  landmark 88, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.725737  0.338692, pixel  28 404, delta t 0
+    observed in frame 2, norm -0.739345  0.325929, pixel 21.7185 398.125, delta t 0
+  landmark 89, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0866551 -0.0154247, pixel 323 241, delta t 0
+    observed in frame 2, norm -0.0922229 -0.0171682, pixel  320.43 240.197, delta t 0
+  landmark 90, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.740901 -0.226157, pixel 705 144, delta t 0
+    observed in frame 2, norm  0.735867 -0.223488, pixel 702.676 145.229, delta t 0
+  landmark 91, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.292461 0.00195523, pixel 228 249, delta t 0
+    observed in frame 2, norm   -0.298267 0.000180566, pixel  225.32 248.183, delta t 0
+  landmark 92, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0129983 -0.306539, pixel 369 107, delta t 0
+    observed in frame 2, norm 0.00819215  -0.307433, pixel 366.781 106.589, delta t 0
+  landmark 93, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.619584 -0.269607, pixel 649 124, delta t 0
+    observed in frame 2, norm 0.614684 -0.26687, pixel 646.738  125.26, delta t 0
+  landmark 94, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.311958 -0.428199, pixel 507  51, delta t 0
+  landmark 95, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.305459 0.225722, pixel 504 352, delta t 0
+    observed in frame 2, norm 0.302794 0.212415, pixel  502.77 345.875, delta t 0
+  landmark 96, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0649913  -0.289159, pixel 333 115, delta t 0
+    observed in frame 2, norm -0.0700018  -0.290774, pixel 330.687 114.257, delta t 0
+  landmark 97, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.160312 -0.0545297, pixel 437 223, delta t 0
+    observed in frame 2, norm   0.158533 -0.0567993, pixel 436.179 221.955, delta t 0
+  landmark 98, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0779896   0.227895, pixel 327 353, delta t 0
+    observed in frame 2, norm -0.0829209   0.219551, pixel 324.724 349.159, delta t 0
+  landmark 99, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.428943   0.18879, pixel 165 335, delta t 0
+    observed in frame 2, norm -0.439568  0.172975, pixel 160.095  327.72, delta t 0
+  landmark 100, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.487435    0.1801, pixel 138 331, delta t 0
+  landmark 101, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.563258   0.16272, pixel 103 323, delta t 0
+  landmark 102, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0909879 -0.204432, pixel 405 154, delta t 0
+    observed in frame 2, norm  0.086061 -0.205058, pixel 402.726 153.712, delta t 0
+  landmark 103, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.489601 -0.215294, pixel 137 149, delta t 0
+  landmark 104, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.530763 -0.165327, pixel 608 172, delta t 0
+    observed in frame 2, norm  0.525762 -0.162638, pixel 605.692 173.238, delta t 0
+  landmark 105, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.600087  0.221377, pixel  86 350, delta t 0
+    observed in frame 2, norm -0.611986  0.205761, pixel 80.5073 342.812, delta t 0
+  landmark 106, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.673743 -0.176189, pixel 674 167, delta t 0
+    observed in frame 2, norm  0.668693 -0.173551, pixel 671.669 168.214, delta t 0
+  landmark 107, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.214471 -0.221812, pixel 462 146, delta t 0
+    observed in frame 2, norm  0.209543 -0.221797, pixel 459.725 146.007, delta t 0
+  landmark 108, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.645581  0.12796, pixel 661 307, delta t 0
+    observed in frame 2, norm 0.643089 0.123997, pixel  659.85 305.176, delta t 0
+  landmark 109, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.539428 -0.356507, pixel 612  84, delta t 0
+    observed in frame 2, norm  0.534654 -0.353911, pixel 609.796 85.1947, delta t 0
+  landmark 110, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.214471 -0.139257, pixel 462 184, delta t 0
+  landmark 111, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm    0.65208 -0.0523572, pixel 664 224, delta t 0
+    observed in frame 2, norm   0.647115 -0.0502812, pixel 661.708 224.956, delta t 0
+  landmark 112, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.593588 0.208342, pixel 637 344, delta t 0
+    observed in frame 2, norm 0.592929 0.196427, pixel 636.696 338.515, delta t 0
+  landmark 113, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.422444  0.247447, pixel 168 362, delta t 0
+    observed in frame 2, norm -0.433264  0.232002, pixel 163.005  354.89, delta t 0
+  landmark 114, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.513432 0.280035, pixel 600 377, delta t 0
+    observed in frame 2, norm 0.513142 0.267417, pixel 599.866 371.192, delta t 0
+  landmark 115, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.394281 0.490767, pixel 545 474, delta t 0
+    observed in frame 2, norm  0.39535 0.476169, pixel 545.494  467.28, delta t 0
+  landmark 116, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.192808 0.00195523, pixel 274 249, delta t 0
+    observed in frame 2, norm   -0.198472 0.000236589, pixel 271.385 248.209, delta t 0
+  landmark 117, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.387782 0.0236802, pixel 542 259, delta t 0
+    observed in frame 2, norm  0.385175 0.0202378, pixel 540.797 257.415, delta t 0
+  landmark 118, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.732236  0.234412, pixel  25 356, delta t 0
+    observed in frame 2, norm -0.743961  0.222564, pixel 19.5877 350.546, delta t 0
+  landmark 119, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.509099  0.321312, pixel 128 396, delta t 0
+    observed in frame 2, norm -0.521931  0.305364, pixel 122.077 388.659, delta t 0
+  landmark 120, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0758232  -0.128395, pixel 328 189, delta t 0
+    observed in frame 2, norm -0.0808839  -0.130474, pixel 325.664 188.043, delta t 0
+  landmark 121, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm -0.259965  0.492939, pixel 243 475, delta t 0
+  landmark 122, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm  0.552426 0.0519226, pixel 618 272, delta t 0
+  landmark 123, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm   0.329289 0.00630023, pixel 515 251, delta t 0
+  landmark 124, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm 0.0411612  0.486422, pixel 382 472, delta t 0
+  landmark 125, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm  0.307626 -0.426027, pixel 505  52, delta t 0
+  landmark 126, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm -0.5026 0.10189, pixel 131 295, delta t 0
+  landmark 127, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm -0.476603 -0.360852, pixel 143  82, delta t 0
+<Landmark Manager> Print all landmarks' information:
+  landmark 138, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm  0.552426 -0.434717, pixel 618  48, delta t 0
+  landmark 137, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm   0.20364 -0.145775, pixel 457 181, delta t 0
+  landmark 136, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm  -0.303293 -0.0110797, pixel 223 243, delta t 0
+  landmark 135, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm  0.253466 -0.376059, pixel 480  75, delta t 0
+  landmark 134, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm -0.415945 -0.391267, pixel 171  68, delta t 0
+  landmark 133, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm  0.0281629 -0.0892896, pixel 376 207, delta t 0
+  landmark 132, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm   0.155979 -0.0653922, pixel 435 218, delta t 0
+  landmark 131, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm -0.355286  0.479904, pixel 199 469, delta t 0
+  landmark 130, status 0, invdep 1, p_w 0 0 0
+    observed in frame 3, norm -0.0996534    0.30176, pixel 317 387, delta t 0
+  landmark 129, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm 0.140815 -0.12405, pixel 428 191, delta t 0
+    observed in frame 3, norm  0.137023 -0.132128, pixel  426.25 187.281, delta t 0
+  landmark 128, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm 0.0584922 -0.139257, pixel 390 184, delta t 0
+    observed in frame 3, norm 0.0546576 -0.147519, pixel  388.23 180.197, delta t 0
+  landmark 59, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.827556 -0.445579, pixel 745  43, delta t 0
+    observed in frame 2, norm 0.822981 -0.44234, pixel 742.888 44.4908, delta t 0
+    observed in frame 3, norm  0.821108 -0.443195, pixel 742.023 44.0975, delta t 0
+  landmark 58, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm     0.437608 -0.000217263, pixel 565 248, delta t 0
+    observed in frame 2, norm     0.43397 -0.00234308, pixel 563.321 247.021, delta t 0
+    observed in frame 3, norm   0.430784 -0.0117945, pixel  561.85 242.671, delta t 0
+  landmark 57, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.381282 -0.426027, pixel 539  52, delta t 0
+    observed in frame 2, norm 0.376758 -0.42348, pixel 536.912 53.1722, delta t 0
+    observed in frame 3, norm  0.374358 -0.427606, pixel 535.804 51.2731, delta t 0
+  landmark 56, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.775563   0.43211, pixel   5 447, delta t 0
+  landmark 55, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0368284  0.0519226, pixel 346 272, delta t 0
+    observed in frame 2, norm -0.0420926  0.0499639, pixel  343.57 271.098, delta t 0
+    observed in frame 3, norm -0.0462911  0.0392652, pixel 341.632 266.174, delta t 0
+  landmark 54, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.697574 -0.276124, pixel 685 121, delta t 0
+    observed in frame 2, norm  0.6926 -0.2733, pixel 682.704   122.3, delta t 0
+    observed in frame 3, norm   0.68962 -0.275597, pixel 681.329 121.243, delta t 0
+  landmark 53, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.606586 0.269172, pixel 643 372, delta t 0
+    observed in frame 2, norm 0.607104 0.256329, pixel 643.239 366.088, delta t 0
+    observed in frame 3, norm 0.608387 0.233628, pixel 643.831 355.639, delta t 0
+  landmark 52, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.671577  0.24093, pixel 673 359, delta t 0
+    observed in frame 2, norm 0.671514 0.228538, pixel 672.971 353.296, delta t 0
+    observed in frame 3, norm 0.672817 0.207174, pixel 673.572 343.462, delta t 0
+  landmark 51, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.509099  0.121443, pixel 128 304, delta t 0
+  landmark 50, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.207972 -0.310884, pixel 267 105, delta t 0
+    observed in frame 2, norm -0.212807 -0.311051, pixel 264.768 104.923, delta t 0
+    observed in frame 3, norm -0.216206 -0.319355, pixel 263.199 101.101, delta t 0
+  landmark 49, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0758232  -0.356507, pixel 328  84, delta t 0
+    observed in frame 2, norm -0.0804427    -0.3559, pixel 325.868 84.2793, delta t 0
+    observed in frame 3, norm -0.0835101  -0.363599, pixel 324.452 80.7355, delta t 0
+  landmark 48, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.554593 0.0540951, pixel 619 273, delta t 0
+  landmark 47, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.441941  0.316967, pixel 159 394, delta t 0
+    observed in frame 2, norm -0.45363 0.301937, pixel 153.604 387.081, delta t 0
+    observed in frame 3, norm -0.465056  0.273532, pixel  148.33 374.007, delta t 0
+  landmark 46, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.59792 -0.504236, pixel 639  16, delta t 0
+    observed in frame 2, norm 0.593371 -0.50107, pixel   636.9 17.4577, delta t 0
+    observed in frame 3, norm 0.591366 -0.50327, pixel 635.974 16.4449, delta t 0
+  landmark 45, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.314125 -0.532479, pixel 508   3, delta t 0
+    observed in frame 2, norm 0.309975 -0.52995, pixel 506.085 4.16388, delta t 0
+    observed in frame 3, norm  0.308009 -0.534364, pixel 505.177 2.13236, delta t 0
+  landmark 44, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.496101 -0.436889, pixel 592  47, delta t 0
+    observed in frame 2, norm  0.491529 -0.434178, pixel  589.89 48.2479, delta t 0
+    observed in frame 3, norm  0.489236 -0.437584, pixel 588.831 46.6802, delta t 0
+  landmark 43, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.106153 -0.0675646, pixel 314 217, delta t 0
+    observed in frame 2, norm  -0.111479 -0.0695228, pixel 311.541 216.099, delta t 0
+    observed in frame 3, norm  -0.115745 -0.0800922, pixel 309.572 211.234, delta t 0
+  landmark 42, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.333622 0.0128177, pixel 517 254, delta t 0
+  landmark 41, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0844887   0.334347, pixel 324 402, delta t 0
+    observed in frame 2, norm -0.0915147   0.323796, pixel 320.757 397.143, delta t 0
+  landmark 40, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.437608 -0.0306322, pixel 161 234, delta t 0
+    observed in frame 2, norm   -0.44351 -0.0320153, pixel 158.276 233.363, delta t 0
+    observed in frame 3, norm  -0.448331 -0.0421263, pixel  156.05 228.709, delta t 0
+  landmark 39, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.641248  0.332175, pixel  67 401, delta t 0
+    observed in frame 2, norm -0.65523 0.316714, pixel  60.546 393.883, delta t 0
+    observed in frame 3, norm -0.669226  0.287964, pixel 54.0854  380.65, delta t 0
+  landmark 38, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.331456 -0.391267, pixel 210  68, delta t 0
+    observed in frame 2, norm -0.336027 -0.391994, pixel  207.89 67.6651, delta t 0
+    observed in frame 3, norm -0.339191 -0.401032, pixel 206.429 63.5052, delta t 0
+  landmark 37, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0259965 -0.0349772, pixel 351 232, delta t 0
+    observed in frame 2, norm -0.0309806 -0.0372707, pixel 348.699 230.944, delta t 0
+    observed in frame 3, norm  -0.034992 -0.0483591, pixel 346.848  225.84, delta t 0
+  landmark 36, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.017331  0.306105, pixel 355 389, delta t 0
+    observed in frame 2, norm -0.0234203   0.297185, pixel 352.189 384.894, delta t 0
+    observed in frame 3, norm -0.0292147   0.277239, pixel 349.514 375.713, delta t 0
+  landmark 35, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.214471 -0.139257, pixel 264 184, delta t 0
+    observed in frame 2, norm -0.219968 -0.140709, pixel 261.463 183.332, delta t 0
+    observed in frame 3, norm -0.224361 -0.150921, pixel 259.435 178.631, delta t 0
+  landmark 34, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.151646  -0.14143, pixel 293 183, delta t 0
+    observed in frame 2, norm -0.157027 -0.144026, pixel 290.517 181.805, delta t 0
+    observed in frame 3, norm -0.161291 -0.155624, pixel 288.548 176.466, delta t 0
+  landmark 33, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.355286  0.251792, pixel 199 364, delta t 0
+    observed in frame 2, norm -0.36555 0.236128, pixel 194.262  356.79, delta t 0
+    observed in frame 3, norm -0.375081  0.207635, pixel 189.863 343.675, delta t 0
+  landmark 32, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.721404 0.351727, pixel 696 410, delta t 0
+    observed in frame 2, norm 0.724027 0.338817, pixel 697.211 404.057, delta t 0
+    observed in frame 3, norm 0.727227  0.31641, pixel 698.688 393.744, delta t 0
+  landmark 31, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.262132 -0.336954, pixel 242  93, delta t 0
+    observed in frame 2, norm -0.266882 -0.337314, pixel 239.807 92.8346, delta t 0
+    observed in frame 3, norm -0.270163 -0.346001, pixel 238.293 88.8357, delta t 0
+  landmark 30, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.725737 -0.471649, pixel 698  31, delta t 0
+    observed in frame 2, norm  0.721113 -0.468165, pixel 695.866 32.6036, delta t 0
+    observed in frame 3, norm  0.719185 -0.469423, pixel 694.976 32.0245, delta t 0
+  landmark 13, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.563258   0.31045, pixel 103 391, delta t 0
+    observed in frame 2, norm -0.57651 0.294375, pixel 96.8829 383.601, delta t 0
+    observed in frame 3, norm -0.589672  0.264669, pixel 90.8074 369.927, delta t 0
+  landmark 12, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.301127  0.358245, pixel 224 413, delta t 0
+    observed in frame 2, norm -0.311601  0.343713, pixel 219.165 406.311, delta t 0
+    observed in frame 3, norm -0.321877  0.315635, pixel 214.422 393.387, delta t 0
+  landmark 11, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.199307   0.37997, pixel 271 423, delta t 0
+    observed in frame 2, norm -0.208219  0.367195, pixel 266.886  417.12, delta t 0
+    observed in frame 3, norm -0.216972  0.341461, pixel 262.846 405.274, delta t 0
+  landmark 10, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.305459  0.464697, pixel 222 462, delta t 0
+    observed in frame 2, norm -0.316516  0.451939, pixel 216.896 456.128, delta t 0
+    observed in frame 3, norm -0.327648  0.425835, pixel 211.758 444.112, delta t 0
+  landmark 9, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.548094  0.390832, pixel 110 428, delta t 0
+    observed in frame 2, norm -0.562443  0.374828, pixel 103.376 420.634, delta t 0
+    observed in frame 3, norm -0.576986  0.345092, pixel 96.6634 406.946, delta t 0
+  landmark 8, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.337955 -0.0458397, pixel 519 227, delta t 0
+    observed in frame 2, norm    0.33315 -0.0494716, pixel 516.782 225.328, delta t 0
+    observed in frame 3, norm   0.329648 -0.0614208, pixel 515.165 219.828, delta t 0
+  landmark 7, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.277296  0.308277, pixel 235 390, delta t 0
+    observed in frame 2, norm -0.286733  0.294009, pixel 230.644 383.432, delta t 0
+    observed in frame 3, norm -0.295663  0.266749, pixel 226.522 370.885, delta t 0
+  landmark 6, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.034662 -0.434717, pixel 379  48, delta t 0
+    observed in frame 2, norm  0.030089 -0.435003, pixel 376.889 47.8683, delta t 0
+    observed in frame 3, norm 0.0274324 -0.443338, pixel 375.663 44.0314, delta t 0
+  landmark 5, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.233969  0.440799, pixel 255 451, delta t 0
+    observed in frame 2, norm -0.243671  0.428166, pixel 250.522 445.185, delta t 0
+    observed in frame 3, norm -0.253331  0.402725, pixel 246.062 433.474, delta t 0
+  landmark 4, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.431109  0.412557, pixel 164 438, delta t 0
+    observed in frame 2, norm -0.443778  0.398044, pixel 158.152  431.32, delta t 0
+    observed in frame 3, norm -0.456706  0.369634, pixel 152.184 418.242, delta t 0
+  landmark 3, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.47227 0.369107, pixel 145 418, delta t 0
+    observed in frame 2, norm -0.484859  0.354299, pixel 139.189 411.184, delta t 0
+    observed in frame 3, norm -0.497642  0.325737, pixel 133.288 398.037, delta t 0
+  landmark 2, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.366118  0.427765, pixel 194 445, delta t 0
+    observed in frame 2, norm -0.377888  0.413709, pixel 188.567  438.53, delta t 0
+    observed in frame 3, norm -0.389637  0.386196, pixel 183.143 425.866, delta t 0
+  landmark 1, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.498267  0.427765, pixel 133 445, delta t 0
+    observed in frame 2, norm -0.512181  0.412627, pixel 126.577 438.032, delta t 0
+    observed in frame 3, norm -0.526383  0.383814, pixel 120.022  424.77, delta t 0
+  landmark 14, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0259965 -0.367369, pixel 375  79, delta t 0
+    observed in frame 2, norm 0.0213404 -0.367683, pixel 372.851 78.8557, delta t 0
+    observed in frame 3, norm 0.0183624 -0.376061, pixel 371.476  74.999, delta t 0
+  landmark 15, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.37695 0.347382, pixel 189 408, delta t 0
+    observed in frame 2, norm -0.388323  0.332448, pixel  183.75 401.126, delta t 0
+    observed in frame 3, norm -0.399509  0.304245, pixel 178.587 388.144, delta t 0
+  landmark 16, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.372617  0.486422, pixel 191 472, delta t 0
+    observed in frame 2, norm -0.385177  0.472927, pixel 185.202 465.788, delta t 0
+    observed in frame 3, norm -0.398292  0.445809, pixel 179.149 453.306, delta t 0
+  landmark 17, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.604419   0.41473, pixel  84 439, delta t 0
+    observed in frame 2, norm -0.619702  0.398712, pixel 76.9454 431.627, delta t 0
+    observed in frame 3, norm -0.635355  0.368757, pixel   69.72 417.839, delta t 0
+  landmark 18, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.106153  0.408212, pixel 314 436, delta t 0
+    observed in frame 2, norm -0.113635  0.397158, pixel 310.546 430.912, delta t 0
+    observed in frame 3, norm -0.121224  0.372333, pixel 307.043 419.485, delta t 0
+  landmark 19, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.255633 -0.304367, pixel 481 108, delta t 0
+    observed in frame 2, norm  0.250911 -0.303442, pixel  478.82 108.425, delta t 0
+    observed in frame 3, norm  0.247855 -0.309758, pixel  477.41 105.519, delta t 0
+  landmark 20, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.543761   0.23224, pixel 112 355, delta t 0
+    observed in frame 2, norm -0.555536  0.216745, pixel 106.565 347.868, delta t 0
+    observed in frame 3, norm -0.566852  0.188221, pixel 101.341 334.738, delta t 0
+  landmark 21, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.281629 -0.0849446, pixel 233 209, delta t 0
+    observed in frame 2, norm -0.287189 -0.086269, pixel 230.434  208.39, delta t 0
+    observed in frame 3, norm  -0.291801 -0.0962449, pixel 228.305 203.798, delta t 0
+  landmark 22, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.760399  0.10189, pixel 714 295, delta t 0
+    observed in frame 2, norm  0.757096 0.0979895, pixel 712.475 293.205, delta t 0
+    observed in frame 3, norm 0.754385 0.087496, pixel 711.224 288.374, delta t 0
+  landmark 23, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0866551 -0.260917, pixel 403 128, delta t 0
+    observed in frame 2, norm 0.0815945 -0.261966, pixel 400.664 127.517, delta t 0
+    observed in frame 3, norm 0.0780422 -0.270983, pixel 399.024 123.366, delta t 0
+  landmark 24, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.253466 -0.0936346, pixel 480 205, delta t 0
+    observed in frame 2, norm   0.248423 -0.0933556, pixel 477.672 205.128, delta t 0
+    observed in frame 3, norm  0.244618 -0.100583, pixel 475.916 201.802, delta t 0
+  landmark 25, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.470104 -0.208777, pixel 580 152, delta t 0
+    observed in frame 2, norm  0.465244 -0.207419, pixel 577.756 152.625, delta t 0
+    observed in frame 3, norm  0.461981 -0.212571, pixel  576.25 150.254, delta t 0
+  landmark 26, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.142981  0.366935, pixel 297 417, delta t 0
+    observed in frame 2, norm -0.150829  0.355253, pixel 293.377 411.623, delta t 0
+    observed in frame 3, norm -0.158614  0.331294, pixel 289.784 400.595, delta t 0
+  landmark 27, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.496101 0.0432327, pixel 592 268, delta t 0
+    observed in frame 2, norm  0.491358 0.0394827, pixel 589.811 266.274, delta t 0
+    observed in frame 3, norm  0.486026 0.0274799, pixel 587.349 260.749, delta t 0
+  landmark 28, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.732236  0.395177, pixel  25 430, delta t 0
+    observed in frame 2, norm -0.746879  0.381134, pixel 18.2406 423.536, delta t 0
+    observed in frame 3, norm -0.761648  0.354239, pixel 11.4234 411.156, delta t 0
+  landmark 29, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.47227 0.492939, pixel 145 475, delta t 0
+    observed in frame 2, norm -0.486423  0.478843, pixel 138.467 468.511, delta t 0
+    observed in frame 3, norm -0.5011  0.4515, pixel 131.692 455.926, delta t 0
+  landmark 60, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.571924 0.360417, pixel 627 414, delta t 0
+    observed in frame 2, norm 0.573562 0.346261, pixel 627.756 407.484, delta t 0
+    observed in frame 3, norm 0.576136 0.321559, pixel 628.944 396.114, delta t 0
+  landmark 61, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.145147 0.366935, pixel 430 417, delta t 0
+    observed in frame 2, norm 0.141128 0.351793, pixel 428.144  410.03, delta t 0
+    observed in frame 3, norm 0.137574  0.32359, pixel 426.504 397.048, delta t 0
+  landmark 62, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.0389948 -0.0740821, pixel 381 214, delta t 0
+    observed in frame 2, norm  0.0340011 -0.0768155, pixel 378.695 212.742, delta t 0
+  landmark 63, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.34662 -0.323919, pixel 203  99, delta t 0
+    observed in frame 2, norm -0.351478 -0.324628, pixel 200.758 98.6736, delta t 0
+    observed in frame 3, norm -0.355013 -0.333738, pixel 199.126 94.4803, delta t 0
+  landmark 64, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.539428  0.473387, pixel 114 466, delta t 0
+    observed in frame 2, norm -0.554271  0.458728, pixel 107.149 459.252, delta t 0
+    observed in frame 3, norm -0.570018  0.429927, pixel 99.8798 445.995, delta t 0
+  landmark 65, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.535095 -0.528134, pixel 610   5, delta t 0
+    observed in frame 2, norm  0.530718 -0.525152, pixel  607.98 6.37241, delta t 0
+    observed in frame 3, norm  0.528847 -0.528248, pixel 607.116 4.94757, delta t 0
+  landmark 66, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.441941 -0.432544, pixel 567  49, delta t 0
+    observed in frame 2, norm  0.437459 -0.429874, pixel 564.931  50.229, delta t 0
+    observed in frame 3, norm  0.435108 -0.433576, pixel 563.846 48.5248, delta t 0
+  landmark 67, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.487435 -0.108842, pixel 588 198, delta t 0
+    observed in frame 2, norm  0.482333 -0.106683, pixel 585.645 198.994, delta t 0
+    observed in frame 3, norm  0.478543 -0.110685, pixel 583.896 197.152, delta t 0
+  landmark 68, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.667244 0.186617, pixel 671 334, delta t 0
+    observed in frame 2, norm 0.664561 0.183704, pixel 669.761 332.659, delta t 0
+  landmark 69, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.121317 -0.295677, pixel 307 112, delta t 0
+    observed in frame 2, norm -0.126135 -0.297141, pixel 304.776 111.326, delta t 0
+    observed in frame 3, norm -0.129136 -0.307032, pixel 303.391 106.773, delta t 0
+  landmark 70, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.242634 0.490767, pixel 475 474, delta t 0
+    observed in frame 2, norm 0.241041  0.47568, pixel 474.265 467.055, delta t 0
+    observed in frame 3, norm 0.239877 0.447702, pixel 473.727 454.177, delta t 0
+  landmark 71, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.368284 -0.291332, pixel 533 114, delta t 0
+    observed in frame 2, norm  0.363533 -0.289467, pixel 530.807 114.858, delta t 0
+    observed in frame 3, norm  0.360538 -0.294074, pixel 529.425 112.738, delta t 0
+  landmark 72, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.409445 -0.382577, pixel 174  72, delta t 0
+    observed in frame 2, norm -0.414052 -0.383626, pixel 171.874 71.5171, delta t 0
+  landmark 73, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.155979 -0.228329, pixel 435 143, delta t 0
+    observed in frame 2, norm  0.150943 -0.228285, pixel 432.675 143.021, delta t 0
+    observed in frame 3, norm  0.147491 -0.236167, pixel 431.082 139.393, delta t 0
+  landmark 74, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0281629  -0.210949, pixel 350 151, delta t 0
+    observed in frame 2, norm -0.033267 -0.210872, pixel 347.644 151.036, delta t 0
+    observed in frame 3, norm -0.0370438   -0.21886, pixel 345.901 147.359, delta t 0
+  landmark 75, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.543761 -0.0306322, pixel 614 234, delta t 0
+    observed in frame 2, norm   0.539984 -0.0336675, pixel 612.257 232.603, delta t 0
+    observed in frame 3, norm   0.538831 -0.0446415, pixel 611.725 227.552, delta t 0
+  landmark 76, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.381282 -0.0241147, pixel 187 237, delta t 0
+    observed in frame 2, norm  -0.387175 -0.0255888, pixel  184.28 236.321, delta t 0
+    observed in frame 3, norm  -0.392203 -0.0358376, pixel 181.959 231.604, delta t 0
+  landmark 77, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0259965 -0.193569, pixel 375 159, delta t 0
+    observed in frame 2, norm 0.0208407 -0.194094, pixel  372.62 158.759, delta t 0
+    observed in frame 3, norm 0.0170122 -0.202968, pixel 370.853 154.674, delta t 0
+  landmark 78, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.205806   0.31045, pixel 268 391, delta t 0
+    observed in frame 2, norm -0.214801  0.297625, pixel 263.848 385.097, delta t 0
+    observed in frame 3, norm -0.223314  0.272304, pixel 259.918 373.442, delta t 0
+  landmark 79, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.706239 0.419075, pixel 689 441, delta t 0
+    observed in frame 2, norm 0.709427  0.40544, pixel 690.471 434.724, delta t 0
+    observed in frame 3, norm 0.713208 0.381739, pixel 692.217 423.814, delta t 0
+  landmark 80, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.615251  0.486422, pixel  79 472, delta t 0
+    observed in frame 2, norm -0.63141 0.471497, pixel 71.5411  465.13, delta t 0
+    observed in frame 3, norm -0.648356  0.442652, pixel  63.719 451.853, delta t 0
+  landmark 81, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.483102  0.251792, pixel 140 364, delta t 0
+    observed in frame 2, norm -0.494856  0.236094, pixel 134.575 356.774, delta t 0
+    observed in frame 3, norm -0.506321  0.207021, pixel 129.282 343.392, delta t 0
+  landmark 82, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.119151 0.0236802, pixel 418 259, delta t 0
+    observed in frame 2, norm 0.113631 0.020169, pixel 415.452 257.384, delta t 0
+    observed in frame 3, norm   0.108978 0.00922648, pixel 413.304 252.347, delta t 0
+  landmark 83, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.721404  0.14534, pixel 696 315, delta t 0
+    observed in frame 2, norm 0.716792 0.141996, pixel 693.871 313.461, delta t 0
+    observed in frame 3, norm 0.713345 0.131883, pixel  692.28 308.806, delta t 0
+  landmark 84, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0498267  0.299587, pixel 386 386, delta t 0
+    observed in frame 2, norm 0.0441692  0.291305, pixel 383.388 382.188, delta t 0
+    observed in frame 3, norm 0.0372797  0.270749, pixel 380.208 372.726, delta t 0
+  landmark 85, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.158146 -0.215294, pixel 290 149, delta t 0
+    observed in frame 2, norm -0.163167 -0.215936, pixel 287.682 148.705, delta t 0
+    observed in frame 3, norm -0.166598   -0.2248, pixel 286.098 144.625, delta t 0
+  landmark 86, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.730069 -0.534651, pixel 700   2, delta t 0
+    observed in frame 2, norm  0.725564 -0.531316, pixel  697.92 3.53533, delta t 0
+    observed in frame 3, norm   0.72405 -0.532713, pixel 697.222  2.8924, delta t 0
+  landmark 87, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.710572 -0.0458397, pixel 691 227, delta t 0
+    observed in frame 2, norm    0.70551 -0.0435551, pixel 688.664 228.052, delta t 0
+    observed in frame 3, norm   0.701681 -0.0463433, pixel 686.896 226.768, delta t 0
+  landmark 88, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.725737  0.338692, pixel  28 404, delta t 0
+    observed in frame 2, norm -0.739345  0.325929, pixel 21.7185 398.125, delta t 0
+    observed in frame 3, norm -0.752775  0.300717, pixel 15.5191  386.52, delta t 0
+  landmark 89, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0866551 -0.0154247, pixel 323 241, delta t 0
+    observed in frame 2, norm -0.0922229 -0.0171682, pixel  320.43 240.197, delta t 0
+    observed in frame 3, norm -0.0968591 -0.0276643, pixel  318.29 235.366, delta t 0
+  landmark 90, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.740901 -0.226157, pixel 705 144, delta t 0
+    observed in frame 2, norm  0.735867 -0.223488, pixel 702.676 145.229, delta t 0
+    observed in frame 3, norm  0.732689 -0.225602, pixel 701.209 144.256, delta t 0
+  landmark 91, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.292461 0.00195523, pixel 228 249, delta t 0
+    observed in frame 2, norm   -0.298267 0.000180566, pixel  225.32 248.183, delta t 0
+  landmark 92, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0129983 -0.306539, pixel 369 107, delta t 0
+    observed in frame 2, norm 0.00819215  -0.307433, pixel 366.781 106.589, delta t 0
+    observed in frame 3, norm 0.00507732  -0.316334, pixel 365.344 102.491, delta t 0
+  landmark 93, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.619584 -0.269607, pixel 649 124, delta t 0
+    observed in frame 2, norm 0.614684 -0.26687, pixel 646.738  125.26, delta t 0
+    observed in frame 3, norm  0.611715 -0.269614, pixel 645.368 123.997, delta t 0
+  landmark 94, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.311958 -0.428199, pixel 507  51, delta t 0
+  landmark 95, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.305459 0.225722, pixel 504 352, delta t 0
+    observed in frame 2, norm 0.302794 0.212415, pixel  502.77 345.875, delta t 0
+    observed in frame 3, norm 0.300879 0.187913, pixel 501.886 334.596, delta t 0
+  landmark 96, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0649913  -0.289159, pixel 333 115, delta t 0
+    observed in frame 2, norm -0.0700018  -0.290774, pixel 330.687 114.257, delta t 0
+    observed in frame 3, norm -0.0735709  -0.300769, pixel  329.04 109.656, delta t 0
+  landmark 97, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm   0.160312 -0.0545297, pixel 437 223, delta t 0
+    observed in frame 2, norm   0.158533 -0.0567993, pixel 436.179 221.955, delta t 0
+  landmark 98, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0779896   0.227895, pixel 327 353, delta t 0
+    observed in frame 2, norm -0.0829209   0.219551, pixel 324.724 349.159, delta t 0
+    observed in frame 3, norm -0.0870804    0.19996, pixel 322.804 340.142, delta t 0
+  landmark 99, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.428943   0.18879, pixel 165 335, delta t 0
+    observed in frame 2, norm -0.439568  0.172975, pixel 160.095  327.72, delta t 0
+    observed in frame 3, norm -0.449571  0.144171, pixel 155.478 314.462, delta t 0
+  landmark 100, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.487435    0.1801, pixel 138 331, delta t 0
+  landmark 101, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.563258   0.16272, pixel 103 323, delta t 0
+  landmark 102, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.0909879 -0.204432, pixel 405 154, delta t 0
+    observed in frame 2, norm  0.086061 -0.205058, pixel 402.726 153.712, delta t 0
+    observed in frame 3, norm 0.0826502 -0.214012, pixel 401.151  149.59, delta t 0
+  landmark 103, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.489601 -0.215294, pixel 137 149, delta t 0
+  landmark 104, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.530763 -0.165327, pixel 608 172, delta t 0
+    observed in frame 2, norm  0.525762 -0.162638, pixel 605.692 173.238, delta t 0
+    observed in frame 3, norm  0.522032 -0.165732, pixel  603.97 171.814, delta t 0
+  landmark 105, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.600087  0.221377, pixel  86 350, delta t 0
+    observed in frame 2, norm -0.611986  0.205761, pixel 80.5073 342.812, delta t 0
+    observed in frame 3, norm -0.62326 0.177014, pixel 75.3033  329.58, delta t 0
+  landmark 106, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.673743 -0.176189, pixel 674 167, delta t 0
+    observed in frame 2, norm  0.668693 -0.173551, pixel 671.669 168.214, delta t 0
+    observed in frame 3, norm  0.665299 -0.176141, pixel 670.102 167.022, delta t 0
+  landmark 107, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.214471 -0.221812, pixel 462 146, delta t 0
+    observed in frame 2, norm  0.209543 -0.221797, pixel 459.725 146.007, delta t 0
+    observed in frame 3, norm  0.206438 -0.229607, pixel 458.292 142.412, delta t 0
+  landmark 108, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.645581  0.12796, pixel 661 307, delta t 0
+    observed in frame 2, norm 0.643089 0.123997, pixel  659.85 305.176, delta t 0
+  landmark 109, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.539428 -0.356507, pixel 612  84, delta t 0
+    observed in frame 2, norm  0.534654 -0.353911, pixel 609.796 85.1947, delta t 0
+    observed in frame 3, norm   0.53199 -0.357392, pixel 608.567 83.5923, delta t 0
+  landmark 110, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.214471 -0.139257, pixel 462 184, delta t 0
+  landmark 111, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm    0.65208 -0.0523572, pixel 664 224, delta t 0
+    observed in frame 2, norm   0.647115 -0.0502812, pixel 661.708 224.956, delta t 0
+    observed in frame 3, norm   0.643195 -0.0536176, pixel 659.899  223.42, delta t 0
+  landmark 112, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.593588 0.208342, pixel 637 344, delta t 0
+    observed in frame 2, norm 0.592929 0.196427, pixel 636.696 338.515, delta t 0
+    observed in frame 3, norm 0.593239 0.175133, pixel 636.839 328.714, delta t 0
+  landmark 113, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.422444  0.247447, pixel 168 362, delta t 0
+    observed in frame 2, norm -0.433264  0.232002, pixel 163.005  354.89, delta t 0
+    observed in frame 3, norm -0.443655   0.20308, pixel 158.209 341.578, delta t 0
+  landmark 114, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.513432 0.280035, pixel 600 377, delta t 0
+    observed in frame 2, norm 0.513142 0.267417, pixel 599.866 371.192, delta t 0
+    observed in frame 3, norm  0.51367 0.244435, pixel  600.11 360.613, delta t 0
+  landmark 115, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm 0.394281 0.490767, pixel 545 474, delta t 0
+    observed in frame 2, norm  0.39535 0.476169, pixel 545.494  467.28, delta t 0
+    observed in frame 3, norm 0.396974 0.450306, pixel 546.243 455.376, delta t 0
+  landmark 116, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  -0.192808 0.00195523, pixel 274 249, delta t 0
+    observed in frame 2, norm   -0.198472 0.000236589, pixel 271.385 248.209, delta t 0
+    observed in frame 3, norm  -0.203187 -0.0103841, pixel 269.209  243.32, delta t 0
+  landmark 117, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm  0.387782 0.0236802, pixel 542 259, delta t 0
+    observed in frame 2, norm  0.385175 0.0202378, pixel 540.797 257.415, delta t 0
+    observed in frame 3, norm   0.383391 0.00677185, pixel 539.973 251.217, delta t 0
+  landmark 118, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.732236  0.234412, pixel  25 356, delta t 0
+    observed in frame 2, norm -0.743961  0.222564, pixel 19.5877 350.546, delta t 0
+    observed in frame 3, norm -0.754794  0.199114, pixel 14.5869 339.752, delta t 0
+  landmark 119, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.509099  0.321312, pixel 128 396, delta t 0
+    observed in frame 2, norm -0.521931  0.305364, pixel 122.077 388.659, delta t 0
+    observed in frame 3, norm -0.534766  0.275698, pixel 116.152 375.004, delta t 0
+  landmark 120, status 0, invdep 1, p_w 0 0 0
+    observed in frame 1, norm -0.0758232  -0.128395, pixel 328 189, delta t 0
+    observed in frame 2, norm -0.0808839  -0.130474, pixel 325.664 188.043, delta t 0
+    observed in frame 3, norm -0.0847053  -0.141381, pixel   323.9 183.023, delta t 0
+  landmark 121, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm -0.259965  0.492939, pixel 243 475, delta t 0
+    observed in frame 3, norm -0.270486  0.468131, pixel 238.144 463.581, delta t 0
+  landmark 122, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm  0.552426 0.0519226, pixel 618 272, delta t 0
+  landmark 123, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm   0.329289 0.00630023, pixel 515 251, delta t 0
+  landmark 124, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm 0.0411612  0.486422, pixel 382 472, delta t 0
+    observed in frame 3, norm 0.0360574  0.457439, pixel 379.644 458.659, delta t 0
+  landmark 125, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm  0.307626 -0.426027, pixel 505  52, delta t 0
+    observed in frame 3, norm  0.305151 -0.430508, pixel 503.858  49.937, delta t 0
+  landmark 126, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm -0.5026 0.10189, pixel 131 295, delta t 0
+    observed in frame 3, norm -0.510683 0.0751735, pixel 127.269 282.702, delta t 0
+  landmark 127, status 0, invdep 1, p_w 0 0 0
+    observed in frame 2, norm -0.476603 -0.360852, pixel 143  82, delta t 0
+    observed in frame 3, norm -0.480011 -0.370447, pixel 141.427 77.5832, delta t 0
+[ INFO] [1651069353.391317429]: test vio mono timeout, stop.

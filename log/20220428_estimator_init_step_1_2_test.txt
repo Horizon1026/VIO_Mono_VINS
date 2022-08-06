@@ -1,0 +1,128 @@
+<Estimator> Start initialization.
+<Estimator> IMU motion is enough : 0.247472 > 0.08
+<Estimator> Detect correspondence between origin and frame 2, [parallax, nums] = [0.0101814 / 0.03, 111 / 40]
+<Estimator> Detect correspondence between origin and frame 3, [parallax, nums] = [0.0264263 / 0.03, 104 / 40]
+<Estimator> Detect correspondence between origin and frame 4, [parallax, nums] = [0.0494842 / 0.03, 95 / 40]
+<Estimator> Relative pose based on 59 inliers
+<Estimator> Relative pose between frame 1 and 4 is [0.999045, 0.0238479, -0.0263284, -0.0254539], [  0.29064 0.0424573  -0.95589]
+<Estimator> Landmark triangulate pos_w is 11.4002 16.5843 -100.64, valid z is -100.64, -100.796
+<Estimator> Landmark triangulate pos_w is -21.5675  10.7113  38.7877, valid z is 38.7877, 40.3256
+<Estimator> Landmark triangulate pos_w is   3.63333 -0.284295   9.37639, valid z is 9.37639, 10.1414
+<Estimator> Landmark triangulate pos_w is -0.0261825 -0.0152647   0.199301, valid z is 0.199301, 1.172
+<Estimator> Landmark triangulate pos_w is 2.60429 2.69437 6.09928, valid z is 6.09928, 6.79003
+<Estimator> Landmark triangulate pos_w is 4.19026 1.70921 7.86394, valid z is 7.86394, 8.5105
+<Estimator> Landmark triangulate pos_w is -5.92955  2.56502   12.591, valid z is 12.591, 13.7306
+<Estimator> Landmark triangulate pos_w is 5.49023  1.2855 9.04228, valid z is 9.04228, 9.63553
+<Estimator> Landmark triangulate pos_w is  6.93152 -1.06895  10.6749, valid z is 10.6749, 11.2955
+<Estimator> Landmark triangulate pos_w is  9.84813 -7.75835  19.0613, valid z is 19.0613, 19.8136
+<Estimator> Landmark triangulate pos_w is  3.27414 -4.64107  17.2641, valid z is 17.2641, 18.2304
+<Estimator> Landmark triangulate pos_w is  8.30224 -2.82767  12.4954, valid z is 12.4954, 13.119
+<Estimator> Landmark triangulate pos_w is  5.40798 -1.43702 -8.63102, valid z is -8.63102, -7.86266
+<Estimator> Landmark triangulate pos_w is  6.27714 -2.56635  12.0572, valid z is 12.0572, 12.7788
+<Estimator> Landmark triangulate pos_w is  1.37079 -5.61192  22.6155, valid z is 22.6155, 23.7156
+<Estimator> Landmark triangulate pos_w is  6.28207 -1.79643 -13.5204, valid z is -13.5204, -12.7701
+<Estimator> Landmark triangulate pos_w is -0.142116  0.463348   2.12557, valid z is 2.12557, 3.07748
+<Estimator> Landmark triangulate pos_w is  1.13845  3.13193 -10.0263, valid z is -10.0263, -9.23618
+<Estimator> Landmark triangulate pos_w is  1.91046 0.993379  5.90492, valid z is 5.90492, 6.71227
+<Estimator> Landmark triangulate pos_w is   8.9149 -4.72663  14.7575, valid z is 14.7575, 15.4304
+<Estimator> Landmark triangulate pos_w is 0.766161  8.16502 -24.1094, valid z is -24.1094, -23.4969
+<Estimator> Landmark triangulate pos_w is  9.74579 -3.71359  13.3593, valid z is 13.3593, 13.9441
+<Estimator> Landmark triangulate pos_w is -0.194587 -0.131334   2.18656, valid z is 2.18656, 3.16868
+<Estimator> Landmark triangulate pos_w is  0.98118  1.07933 -4.79456, valid z is -4.79456, -3.91417
+<Estimator> Landmark triangulate pos_w is  6.73794 0.841916  9.24339, valid z is 9.24339, 9.78952
+<Estimator> Landmark triangulate pos_w is   0.597703 -0.0975854    4.98979, valid z is 4.98979, 5.92064
+<Estimator> Landmark triangulate pos_w is  28.7842 -11.0335 -54.8726, valid z is -54.8726, -54.8012
+<Estimator> Landmark triangulate pos_w is -32.4788  21.8972  48.9217, valid z is 48.9217, 50.5033
+<Estimator> Landmark triangulate pos_w is 6.22324 2.98474 8.48806, valid z is 8.48806, 8.96456
+<Estimator> Landmark triangulate pos_w is -0.468186  0.643142   2.03669, valid z is 2.03669, 2.99805
+<Estimator> Landmark triangulate pos_w is -0.248306  -7.50471   32.0813, valid z is 32.0813, 33.3323
+<Estimator> Landmark triangulate pos_w is  0.620757 0.0686433   -1.6516, valid z is -1.6516, -0.712933
+<Estimator> Landmark triangulate pos_w is  6.16385  22.3172 -91.1976, valid z is -91.1976, -91.3616
+<Estimator> Landmark triangulate pos_w is  2.52077 -5.40296  19.7585, valid z is 19.7585, 20.7943
+<Estimator> Landmark triangulate pos_w is  6.20494 -6.09345  17.9804, valid z is 17.9804, 18.8544
+<Estimator> Landmark triangulate pos_w is  1.2983 2.14532 4.72963, valid z is 4.72963, 5.51956
+<Estimator> Landmark triangulate pos_w is  1.11596   2.0293 -6.55796, valid z is -6.55796, -5.72436
+<Estimator> Landmark triangulate pos_w is  5.22169 -1.68944  10.8727, valid z is 10.8727, 11.6135
+<Estimator> Landmark triangulate pos_w is  11.7546 -13.7185  28.5504, valid z is 28.5504, 29.4521
+<Estimator> Landmark triangulate pos_w is -9.56672  7.13335  16.2061, valid z is 16.2061, 17.3208
+<Estimator> Landmark triangulate pos_w is  1.36611   1.1283 -3.62647, valid z is -3.62647, -2.77201
+<Estimator> Landmark triangulate pos_w is 0.634551  1.21557  3.66969, valid z is 3.66969, 4.54107
+<Estimator> Landmark triangulate pos_w is 4.76728 2.36306 7.98932, valid z is 7.98932, 8.57424
+<Estimator> Landmark triangulate pos_w is -4.77358  4.28061  9.12581, valid z is 9.12581, 10.1325
+<Estimator> Landmark triangulate pos_w is  14.2545 -6.48512  -18.568, valid z is -18.568, -18.0169
+<Estimator> Landmark triangulate pos_w is    4.61795 -0.0917799    9.27689, valid z is 9.27689, 9.98027
+<Estimator> Landmark triangulate pos_w is -0.383452  0.934852   2.52525, valid z is 2.52525, 3.4673
+<Estimator> Landmark triangulate pos_w is  6.25224 -3.55431  13.7374, valid z is 13.7374, 14.5019
+<Estimator> Landmark triangulate pos_w is  2.24321 -1.28732  9.21522, valid z is 9.21522, 10.1019
+<Estimator> Landmark triangulate pos_w is  4.59059 -28.0231  92.7022, valid z is 92.7022, 94.49
+<Estimator> Landmark triangulate pos_w is  7.65301 0.444542  9.99469, valid z is 9.99469, 10.5081
+<Estimator> Landmark triangulate pos_w is  0.336514 0.0820979  -1.13235, valid z is -1.13235, -0.180323
+<Estimator> Landmark triangulate pos_w is  6.59955 -2.03766 -11.4576, valid z is -11.4576, -10.7185
+<Estimator> Landmark triangulate pos_w is  5.72287 -8.86545  25.3086, valid z is 25.3086, 26.3184
+<Estimator> Landmark triangulate pos_w is -0.308656   1.15848   2.82916, valid z is 2.82916, 3.75607
+<Estimator> Landmark triangulate pos_w is -131.329  74.5887  201.556, valid z is 201.556, 205.633
+<Estimator> Landmark triangulate pos_w is -2.2049 2.49683 5.25783, valid z is 5.25783, 6.21869
+<Estimator> Landmark triangulate pos_w is -1.9228 1.46178 4.47338, valid z is 4.47338, 5.46897
+<Estimator> Landmark triangulate pos_w is 0.432863  8.19792 -20.6192, valid z is -20.6192, -19.999
+<Estimator> Landmark triangulate pos_w is -6.55958   4.7103  11.9256, valid z is 11.9256, 13.0015
+<Estimator> Landmark triangulate pos_w is -1.91731  1.91907  4.62724, valid z is 4.62724, 5.60096
+<Estimator> Landmark triangulate pos_w is -5.78834  3.69905  11.0593, valid z is 11.0593, 12.1427
+<Estimator> Landmark triangulate pos_w is -3.2733 2.62693 6.77181, valid z is 6.77181, 7.78032
+<Estimator> Landmark triangulate pos_w is -0.84056  1.42152  3.20823, valid z is 3.20823, 4.15062
+<Estimator> Landmark triangulate pos_w is 0.262437   8.2141 -17.7441, valid z is -17.7441, -17.1227
+<Estimator> Landmark triangulate pos_w is -0.710051  0.681702   2.22036, valid z is 2.22036, 3.19249
+<Estimator> Landmark triangulate pos_w is    3.1676 -0.947747   9.55462, valid z is 9.55462, 10.375
+<Estimator> Landmark triangulate pos_w is -19.2363  11.2376  32.2202, valid z is 32.2202, 33.6248
+<Estimator> Landmark triangulate pos_w is -1.39368  1.86484  4.04521, valid z is 4.04521, 4.99473
+<Estimator> Landmark triangulate pos_w is -0.561393  0.976141   2.54052, valid z is 2.54052, 3.49021
+<Estimator> Landmark triangulate pos_w is -0.996251   1.01611   2.87736, valid z is 2.87736, 3.84775
+<Estimator> Landmark triangulate pos_w is  23.1154 -9.94352 -38.2227, valid z is -38.2227, -37.9388
+<Estimator> Landmark triangulate pos_w is   14.619 -10.9316  20.8517, valid z is 20.8517, 21.4896
+<Estimator> Landmark triangulate pos_w is  1.28888  1.40707 -4.25852, valid z is -4.25852, -3.41122
+<Estimator> Landmark triangulate pos_w is -1.35497 0.743596  3.28801, valid z is 3.28801, 4.28928
+<Estimator> Landmark triangulate pos_w is 0.719875 0.558188 -3.59346, valid z is -3.59346, -2.6779
+<Estimator> Landmark triangulate pos_w is 0.507534 0.263562 -1.97798, valid z is -1.97798, -1.04142
+<Estimator> Landmark triangulate pos_w is -0.0160851   0.840692    2.84163, valid z is 2.84163, 3.76748
+<Estimator> Landmark triangulate pos_w is -0.148375 -0.335695   4.15592, valid z is 4.15592, 5.14005
+<Estimator> Landmark triangulate pos_w is  1.58431  1.63915 -4.31267, valid z is -4.31267, -3.49187
+<Estimator> Landmark triangulate pos_w is  12.7957 -5.31841 -18.8579, valid z is -18.8579, -18.2816
+<Estimator> Landmark triangulate pos_w is 0.986126  0.11035 -2.27393, valid z is -2.27393, -1.35529
+<Estimator> Landmark triangulate pos_w is -0.803183  -0.67174   6.07755, valid z is 6.07755, 7.10763
+<Estimator> Landmark triangulate pos_w is  12.1413 -12.6303  25.9828, valid z is 25.9828, 26.8198
+<Estimator> Landmark triangulate pos_w is  15.2775 -14.9152  26.8816, valid z is 26.8816, 27.6534
+<Estimator> Landmark triangulate pos_w is -4.67247   2.6633  9.47888, valid z is 9.47888, 10.5542
+<Estimator> Landmark triangulate pos_w is  1.31585  3.95629 -10.5499, valid z is -10.5499, -9.80619
+<Estimator> Landmark triangulate pos_w is  1.18942  1.46155 -4.70427, valid z is -4.70427, -3.85301
+<Estimator> Landmark triangulate pos_w is 6.34253  1.6018 9.23294, valid z is 9.23294, 9.76519
+<Estimator> Landmark triangulate pos_w is 5.45913 1.77487 8.74192, valid z is 8.74192, 9.31494
+<Estimator> Landmark triangulate pos_w is  9.95555 -4.78322  14.5795, valid z is 14.5795, 15.1995
+<Estimator> Landmark triangulate pos_w is -0.0722367  0.0476877    2.46716, valid z is 2.46716, 3.4337
+<Estimator> Landmark triangulate pos_w is  11.3696 -15.3813    32.55, valid z is 32.55, 33.5393
+<Estimator> Landmark triangulate pos_w is   4.19039 -0.484485   9.60437, valid z is 9.60437, 10.3481
+<Estimator> Landmark triangulate pos_w is  14.8618 -9.21805  18.4389, valid z is 18.4389, 18.9905
+<Estimator> Triangulate 70/95 landmarks between frame 1 and 4
+<Frame Manager> Print all frames' information:
+  frame 2 has 120 features.
+    imu buff size is 11
+    q_wc is [1, 0, 0, 0], t_wc is [0 0 0]
+    q_wb is [1, 0, 0, 0], t_wc is [0 0 0]
+  frame 3 has 120 features.
+    imu buff size is 11
+    q_wc is [1, 0, 0, 0], t_wc is [0 0 0]
+    q_wb is [1, 0, 0, 0], t_wc is [0 0 0]
+  frame 4 has 120 features.
+    imu buff size is 11
+    q_wc is [0.999045, 0.0238479, -0.0263284, -0.0254539], t_wc is [  0.29064 0.0424573  -0.95589]
+    q_wb is [1, 0, 0, 0], t_wc is [0 0 0]
+  frame 5 has 120 features.
+    imu buff size is 11
+    q_wc is [1, 0, 0, 0], t_wc is [0 0 0]
+    q_wb is [1, 0, 0, 0], t_wc is [0 0 0]
+  frame 6 has 120 features.
+    imu buff size is 11
+    q_wc is [1, 0, 0, 0], t_wc is [0 0 0]
+    q_wb is [1, 0, 0, 0], t_wc is [0 0 0]
+  frame 7 has 120 features.
+    imu buff size is 11
+    q_wc is [1, 0, 0, 0], t_wc is [0 0 0]
+    q_wb is [1, 0, 0, 0], t_wc is [0 0 0]
